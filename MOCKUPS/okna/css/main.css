@@ -1,0 +1,427 @@
+body {
+    font: 16px RobotoRegular,sans-serif;
+    background-image: url("../img/bg.jpg");
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    
+    width: 100%;
+    bottom: 17%;
+}
+
+.navbar-nav>li>a {
+    padding: 0 3px;
+    
+}
+
+.navbar-nav>li {
+   padding: 15px 10px;
+}
+
+
+
+.mnu-active {
+    border-bottom: 2px solid #f1c40f;
+    border-right: 2px solid #f1c40f;
+}
+
+.main-header {
+    min-height: 900px;
+}
+
+section {
+    position: relative;
+    padding-top: 140px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.rotate {
+    color: #a4a4a4;
+    width: 600px;
+    font:1.9em RobotoLight, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: -270px;
+    top: 70px;
+    transform: rotate(-90deg);
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle .icon-bar {
+    width: 35px;
+    height: 6px;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.hidden {
+    
+    display: none;
+}
+
+.navbar.navbar-default {
+    background-color: transparent;
+    border: none;
+    
+}
+
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:visited, .navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:focus
+{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover  {
+    color: #f0f0f0;
+}
+
+.navbar-nav {
+    float: right;
+    font-size: 0.9em;
+}
+.slogan {
+    margin-top: 11.5%;
+}
+.wrapper {
+    
+}
+
+.header-txt {
+    position: relative;
+}
+
+.slogan h1 {
+    font-size: 3em;
+    display: block;
+    background-color: #f1c40f;
+    font-family: RobotoLight, sans-serif;
+    text-align: center;
+    padding: 18px 0;
+    color: #414141;
+}
+
+.slogan p {
+    margin-top: 10px;
+    color: #e0e0e0;
+    text-align: center;
+    font:1.9em RobotoLight, sans-serif
+}
+
+.presents p {
+    white-space: 3px;
+    font:1em RobotoLight, sans-serif;
+    color: #e0e0e0;
+    text-align: center;
+    margin:-6px 0 10px;
+}
+
+.presents h5{
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: 0 auto;
+    font:bold 1.4em RobotoLight, sans-serif;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 2px solid #f1c40f;
+}
+
+.select-pres {
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pres ul {
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    list-style-type: none;
+    border: 2px solid #57d78d;
+    margin-bottom: 0;
+    -o-border-radius: 6px; 
+     -moz-border-radius: 6px; 
+     -webkit-border-radius: 6px; 
+     border-radius: 6px; 
+}
+
+.foot-head {
+    margin-top: 90px;
+}
+.pres ul li {
+   
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+
+
+.pres ul li a {
+     text-decoration: underline;
+    color: #fff;
+}
+
+.popups {
+    
+}
+
+.popup {
+    
+    font:0.9em RobotoLight, sans-serif;
+    margin-left: 15px;    
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 40px 15px 30px 15px;
+    width: 172px;
+    background-image: url("../img/tooltip-bg.png");
+    background-size: cover;
+}
+
+.stoimost {
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #f1c40f;
+    max-width: 400px;
+    min-height: 300px;
+}
+
+.stoimost h6 {
+   padding: 5px 14px;
+    
+    margin-top: 15px;
+    text-align: center;
+    font:1.2em RobotoLight, sans-serif;
+    background-color: #f1c40f;
+}
+
+.stoimost button {
+    
+    -moz-text-shadow: 1px 1px 2px #4A4646;
+    -webkit-text-shadow: 1px 1px 2px #4A4646;
+    -o-text-shadow: 1px 1px 2px #4A4646;
+    text-shadow: 1px 1px 2px #4A4646;
+    background-color: #34c974;
+    background: linear-gradient(to top, #2cb269, #34c974);
+    padding: 25px 40px;
+    margin-bottom: 80px;
+    margin-top: 70px;
+    color: #fff;
+     font:24px RobotoLight, sans-serif;
+   
+}
+
+.stoimost button.stoim-btn:hover,.stoimost button.stoim-btn:active, .stoimost button.stoim-btn:focus {
+   background-color: #149850;
+    background: linear-gradient(to top, #149850, #2cb269);
+    
+}
+
+#vigodi {
+   
+}
+
+.comfort   {
+    text-align: center;
+}
+
+.comfort p {
+    font:1.1em RobotoLight, sans-serif;
+    margin-bottom: 25px;
+}
+
+.comfort img {
+    margin-top: 35px;
+}
+.vigoda {
+    color: #a4a4a4;
+    text-align: center;
+}
+
+.okno {
+    margin-top: 100px;
+}
+
+.zaiavka-btn {
+    -moz-text-shadow: 1px 1px 2px #4A4646;
+    -webkit-text-shadow: 1px 1px 2px #4A4646;
+    -o-text-shadow: 1px 1px 2px #4A4646;
+    text-shadow: 1px 1px 2px #4A4646;
+    background-color: #34c974;
+    background: linear-gradient(to top, #1BB650, #3ED181);
+    padding: 25px 40px;
+   float: right;
+    color: #fff;
+     font:1.6em RobotoLight, sans-serif;
+   
+}
+
+ .zai-btn button.zaiavka-btn:hover,.zai-btn button.zaiavka-btn:active,.zai-btn button.zaiavka-btn:focus {
+    background: linear-gradient(to top, #149850, #2cb269);
+ }
+
+.zaivka {
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 120px;
+    padding-top: 54px;
+    min-height: 200px;
+    background-color: #34c974;
+    background: linear-gradient(to top, #EAAB08, #F3C914);
+}
+
+.zaivka p {
+    padding-top: 5px;
+    font:1.4em RobotoLight, sans-serif;
+}
+
+.sertificats {
+    
+}
+
+#garant {
+    margin-top: 200px;
+}
+
+.sertificats img{
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.map {
+    position: relative;
+    margin-top: 15px;
+    min-height: 700px;
+}
+
+.form-contact {
+    
+    top:100px;
+    right: 22%;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+}
+
+.form-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.form-inner p {
+    display: block;
+    position: absolute;
+    background-color: #F1C40F;
+    top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    font:1em RobotoLight, sans-serif;
+}
+.contact-form {
+    margin: 0 auto;
+    width: 87%;
+    height: 100%;
+    background: linear-gradient(to top, #3AAC6A, #57D78D);
+}
+
+.form-horizontal {
+    width: 74%;
+    margin: 0 auto;
+    padding-top: 110px;
+    color: #a4a4a4;
+}
+
+.form-inner span {
+    position: absolute;
+    bottom: 127px;
+    width: 92%;
+    margin: 0 auto;
+    color: #36E07E;
+    font:0.9em RobotoLight, sans-serif;
+    display: block;
+    left:33px;
+    
+}
+
+.form-horizontal .form-control {
+    color: #a4a4a4;
+    font:0.9em RobotoLight, sans-serif;
+}
+
+.stm-btn {
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 30px 54px    ;
+    background: linear-gradient(to top, #E29204, #F1C312);
+    font:18px RobotoLight, sans-serif;
+}
+
+.otzivi {
+    margin-top: 250px;
+}
+
+.otziv-item {
+    margin-bottom: 55px;
+}
+
+.otziv-item img  {
+    float: left;
+    display: block;
+    margin-right: 25px;
+}
+
+.otziv-item span {
+    font:1.4em RobotoRegular, sans-serif;
+    color: #a4a4a4;
+    display: block;
+    
+   padding-bottom: 10px;
+}
+
+div.otziv-item p {
+    
+    line-height: 27px;
+    font:1em RobotoLight, sans-serif;
+}
+
+#contakts h3{
+    font:1.5em RobotoRegular, sans-serif;
+    color: #fff;
+    display: block;
+    padding: 21px;
+    text-align: center;
+    background-color: #57d78d;
+}
+
+.main-footer {
+    margin-top: 150px;
+    background: linear-gradient(to top, #EAAA08, #F5D323);
+    padding: 90px 0 ;    
+    font:1.5em RobotoLight, sans-serif;
+     color: #776d6d;
+}
+

@@ -1,0 +1,17 @@
+body
+{
+margin:0px; 
+}
+.about
+{
+width:450px;
+margin-top:70px;
+}
+.content_about
+{
+//overflow:auto;
+}
+.face .one_three img
+{padding: 0px;
+  width: 292px;
+}

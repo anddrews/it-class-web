@@ -1,0 +1,135 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+/*
+@media only screen and (max-width : 1605px) {
+        .slogan {
+            margin-top: 0;
+        }
+*/
+    
+  
+
+
+@media only screen and (max-width : 1200px) {
+        body {
+            font-size: 15px;
+        }
+    
+    .pres ul.gggg li {
+        padding: 25px 10px;
+       
+    }
+    
+    .form-contact {
+        position: initial;
+        margin: 40px auto;
+    }
+    
+   
+    
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    body {
+            font-size: 13px;
+    }
+    
+     
+    
+     
+    
+    p.rotate {
+        padding-bottom: 30px;
+        width: auto;
+        margin: 0;
+        text-align: center;
+        left: 0;
+        top: 0;
+        position:relative;
+        transform: rotate(0);
+    }
+    
+    
+    
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {
+            font-size: 11px;
+    }
+    
+ul.nav.navbar-nav {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        float: none;
+        font-size: 15px;
+    z-index: 100;
+    background-color: #585656;
+    }
+    
+    ul.nav.navbar-nav li:hover {
+        background-color: #a5a1a1;
+    }
+    
+    .zaiavka-btn {
+        margin-top: 10px;
+        float: none;
+    }
+    
+    
+    
+	
+}
+
+@media only screen and (max-width : 600px) {
+	
+    
+   
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    body {
+            font-size: 9px;
+    }
+    
+    
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

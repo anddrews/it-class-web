@@ -1,0 +1,40 @@
+.blog_part
+{
+display:block;
+overflow:auto;
+}
+.blog_date
+{
+width:150px;
+display:block;
+float:left;
+}
+.blog_content
+{width:510px;
+display:block;
+float:right;
+}
+.blog_part a
+{
+background-image:none;
+
+}
+.menu_blog ul
+{
+padding-left:0px;
+}
+.menu_blog li
+{
+display:inline-block;
+}
+.menu_blog a
+{
+background-image:none;
+background-image:none;
+background-color:#9a9a9a;
+display:inline-block;
+height:5px;
+
+margin: 0px 4px 0px 0px;
+padding: 0px 12px;
+}
