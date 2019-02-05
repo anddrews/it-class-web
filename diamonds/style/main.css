@@ -1,0 +1,242 @@
+.row{
+	padding: 0;
+}
+h2{
+	margin-bottom: 40px;
+}
+/* main menu  */
+
+.main-menu{
+	background-color: black;
+	font: 17px Verdana;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding-bottom: 15px;
+}
+.main-menu .navbar{
+	//margin-bottom: 0px;
+}
+.main-menu .navbar-nav{
+	float:none;
+	display: table;
+	margin: 0 auto;
+}
+.main-menu a{
+	color:rgb(179,179,179);
+	margin-top: 40px;
+	text-align: center;
+}
+.main-menu .navbar-nav>li>a:hover {
+	background-color: transparent;
+	border-bottom: solid 4px rgb(158,19,12);
+}
+.main-menu img{
+	padding: 10px;
+}
+.main-menu li
+{
+	margin: auto 8px;
+}
+
+.main-menu li a
+{
+	border-bottom: solid 4px transparent;
+}
+.main-menu .navbar{
+	margin-bottom: 0;
+}
+.main-menu .navbar-brand{
+	height: auto;
+}
+.main-menu .logo-block{
+	margin: 0 auto;
+	display: block;
+	width: 50%;
+	float:none;
+}
+.main-menu button{
+	border-color: rgb(158,19,12);
+
+}
+ .main-menu span{
+	background-color: rgb(158,19,12);
+
+}
+/* diamonds block  */
+.dim{
+	background-image: url("../img/background-diamond.jpg");
+	height: 740px;
+	padding-top: 105px;
+}
+.diamond{
+	margin-top: 110px;
+    margin-left: 20px;
+
+}
+.diamond .img-responsive{
+	display: inherit;
+}
+.item-diamond{
+	background-color: transparent;
+	padding:48% 0;
+}
+.inner-diamond{
+	position: relative;
+    left: -77%;
+}
+
+.about-diamond{
+	position: relative;    
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    z-index: 1000;
+}
+.diamond a:hover .about-diamond{
+	left: -117%;
+}
+
+/*context*/
+.background-gray{
+	background-color: #b3b3b3;
+}
+.context{
+	padding-bottom: 60px;
+}
+.context h2{
+    margin-top: 65px;
+    margin-bottom: 28px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.tab-pane .row{
+    margin: 50px auto;
+}
+.five-columns{
+	width: 20%;
+}
+.four-columns{
+	width: 25%;
+}
+.row-tab{
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    
+}
+.row-tab .img-responsive{
+    border:solid 0.3px rgb(204 ,204,204);
+}
+.first-tab{
+	margin-top: 18px;
+}
+.tab-pane .row{
+	margin: 10px auto;
+}
+.nav-pills li a{
+	background-color: transparent;
+	color: black;
+	//padding-left: 0;
+    margin-right: 45px;
+    font-weight: bold;
+    border-radius: 0;
+	}
+.nav-pills>li.active>a{
+	border-bottom: solid 4px rgb(158,19,12);
+}
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: transparent;
+	color: black;
+	
+}
+.button-more-job{
+    border: solid 3px rgb(158,19,12);
+    display: inline-block;
+    width: 120px;
+    height: 41px;
+    text-align: center;
+    top: 12px;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+.button-more-job a{
+    
+    color: black;
+}
+.button-more-job a:hover{
+    text-decoration: none;
+    color: black;
+}
+/*slider*/
+.background-dark-gray{
+	background-color: #3a3a3a;
+	color: white;
+}
+.carousel-control{
+	width: auto;
+}
+.carousel .name{
+	margin-top: 0;
+	font-size: 17px;
+}
+.carousel .italic{
+	font-style: italic;
+	font-size: 12px;
+}
+.carousel-control{
+	top:105%;
+}
+.left.carousel-control {
+	left:19%;
+}
+.right.carousel-control {
+	right:78%;
+}
+/*contakts*/
+.background-almost-black{
+	background-color: #131313;
+	color: white;
+}
+.contacts-red{
+	background-color: #9e130c;
+	height: 240px;
+	position: initial;
+}
+.contact-form>div{
+	position: initial;
+}
+.contacts-row{
+	margin-bottom: 43px;
+    overflow: auto;
+}
+.msg{
+	height: 90px;
+	width: 100%;
+}
+.contacts .button-more-job{
+	background-color: transparent;
+	float: right;
+}
+/*footer*/
+.footer{
+	color: white;
+	background-color: black;
+	padding-left: 0px;
+}
+.footer p {
+    float: left;
+    padding-left: 20px;
+}
+.map{
+	    padding: 0 15px;
+}
+
+
+
